@@ -6,6 +6,9 @@ const mealDetailsContent = document.querySelector('.meal-details-content');
 
 searchBtn.addEventListener('click',getMealList);
 mealList.addEventListener('click',getMealRecipe);
+recipeCloseBtn.addEventListener('click',()=>{
+    mealDetailsContent.parentElement.classList.remove('showRecipe');
+});
 
 function getMealList()
 {
