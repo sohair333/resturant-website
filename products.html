@@ -8,7 +8,8 @@
     <link rel="icon" href="assests/img/icons/240_F_219875388_fZu0nSf5ILq0DZDS5H0qP0nXSHj1fDZB.jpg">
     <link rel="stylesheet" href="style/font-awesome.css">
     <link rel="stylesheet" href="style/bootstrap.min.css">
-    <link rel="stylesheet" href="style/style.css">
+    
+    <link rel="stylesheet" href="style/products.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>PIZZA HAT</title>
@@ -16,10 +17,251 @@
 </head>
 <body>
     
+                <!--nav start-->
 
+        <nav class="navbar fixed navbar-expand-lg navbar-light ">
+            <div class="container">
+            <a class="navbar-brand " href="#"><span>C</span><img src="assests/img/icons/oo.png"><span>Kery</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end me-1" id="navbarNav">
+                <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Catalog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Book A table</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                    <li class="nav-item me-5">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <div class="logIn px-2 py-2 "><a href="#"><i class="fa fa-sign-in" ></i>&nbsp;LogIn</a></div>
+                <div class="logOut px-2 py-2"><a href="#"><i class="fa fa-sign-out" ></i>&nbsp;Signup</a></div>
+                <div class="cart px-2 py-2"><a href="#"><i class="fa fa-cart-arrow-down" ></i>&nbsp;Cart</a></div>
+                <!-- <form class="d-flex ">
+                    <input class=" px-3 search" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn0 " type="submit">Search</button>
+                </form> -->
+                
+                </ul>
+            </div>
+            
+            </div>
+            
+        </nav>
+
+
+          <!--nav end-->
+
+
+
+            <!--search product start--> 
+
+                <div class="container">
+                    <div class="row my-5">
+                        <div class="meal-wrapper">
+                            <div class="meal-search">
+                                <h2 class="title">Find Meals For Your integreients</h2>
+                                <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum deserunt vel, unde tempora laborum libero quis dolore quas maiores odit.</blockquote>
+                                <div class="meal-search-box">
+                                    <input type="text" name="" class="search-control" placeholder="Enter Your Integredient" id="search-input">
+                                    <button type="submit" class="search-btn btn" id="search-btn">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+
+
+                            <div class="meal-result">
+
+                                <h2 class="title">Your Search Result</h2>
+                                <div id="meal">
+                                    <!--meal item-->
+                                    <div class="meal-item">
+                                        <div class="meal-img">
+                                            <img src="assests/img/other/240_F_100646290_b7QmcgJDjz4McOSnJYAxU3RpnkdiaLo1.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="meal-name">
+                                            <h3>Pizza Item 1</h3>
+                                            <a href="#" class="recipe-btn">Get Recipe</a>
+                                        </div>
+                                    </div>
+                                    <!--meal irem end-->
+
+                                          <!--meal item-->
+                                          <div class="meal-item">
+                                            <div class="meal-img">
+                                                <img src="assests/img/other/240_F_139522908_ETkmR14znH3PqAvYjDrCyJTFHFhBR9jW.jpg" alt="" srcset="">
+                                            </div>
+                                            <div class="meal-name">
+                                                <h3>Pizza Item 2</h3>
+                                                <a href="#" class="recipe-btn">Get Recipe</a>
+                                            </div>
+                                        </div>
+                                        <!--meal irem end-->
+
+                                              <!--meal item-->
+                                    <div class="meal-item">
+                                        <div class="meal-img">
+                                            <img src="assests/img/other/240_F_187570718_X0kZYchjzZKjUsIRrZwrzV4412HPtcfG.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="meal-name">
+                                            <h3>Pizza Item 3</h3>
+                                            <a href="#" class="recipe-btn">Get Recipe</a>
+                                        </div>
+                                    </div>
+                                    <!--meal irem end-->
+
+                                              <!--meal item-->
+                                              <div class="meal-item">
+                                                <div class="meal-img">
+                                                    <img src="assests/img/other/240_F_264847354_bawUZKHbzxwv5tmBzeTG5pUmYZckJXtl.jpg" alt="" srcset="">
+                                                </div>
+                                                <div class="meal-name">
+                                                    <h3>Pizza Item 4</h3>
+                                                    <a href="#" class="recipe-btn">Get Recipe</a>
+                                                </div>
+                                            </div>
+                                            <!--meal item end-->
+
+
+                                             <!--meal item-->
+                                             <div class="meal-item">
+                                                <div class="meal-img">
+                                                    <img src="assests/img/other/240_F_264847354_bawUZKHbzxwv5tmBzeTG5pUmYZckJXtl.jpg" alt="" srcset="">
+                                                </div>
+                                                <div class="meal-name">
+                                                    <h3>Pizza Item 4</h3>
+                                                    <a href="#" class="recipe-btn">Get Recipe</a>
+                                                </div>
+                                            </div>
+                                            <!--meal item end-->
+        
+                                    
+                                </div>
+                                
+
+                                <!--meal details start-->
+
+                                   <div class="meal-details">
+                                    <button class="btn recipe-close-btn" id="recipe-close-btn">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                    <div class="meal-details-content">
+                                        <h2 class="recipe-title">
+                                            Meals Names here
+                                        </h2>
+                                        <p class="recipe-category">
+                                            Category Name
+                                        </p>
+                                        <div class="recipe-instruct">
+                                            <h3>
+                                                Instructions:
+                                            </h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, debitis nihil quisquam in ratione, doloremque aspernatur distinctio facilis odio corporis error optio nisi corrupti ea fuga ab quasi at cupiditate.</p>
+                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sit perspiciatis necessitatibus fugiat nobis illo mollitia molestiae asperiores?</p>
+                                        </div>
+                                        <div class="recipe-meal-img">
+                                            <img src="assests/img/other/240_F_220639904_NcFKVLfZgP2im6TblBpQvkSjta4Gn7I0.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="recipe-link">
+                                            <a href="#" target="_blank">Watch Video</a>
+                                        </div>
+                                    </div>
+
+                                   </div>
+
+                                
+
+                                 <!--meal details end-->
+
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+            <!--search product end--> 
+
+                  <!--footer start-->
+
+                  <footer class="container-fluid">
+                    <div class="row foot fadeInLeftBig">
+                      <div class="footer-col">
+                        <h1>CoKery</h1>
+                        <ul>
+                          <li><a href="#">About Us</a></li>
+                          <li><a href="#">Our Services</a></li>
+                          <li><a href="#">Privacy Policy</a></li>
+                          <li><a href="#">Affilliate programs</a></li>
+                        </ul>
+                      </div>
+    
+                      <div class="footer-col">
+                        <h1>Get Help</h1>
+                        <ul>
+                          <li><a href="#">FAQ</a></li>
+                          <li><a href="#">Returns</a></li>
+                          <li><a href="#">Order Status</a></li>
+                          <li><a href="#">Payment Options</a></li>
+                        </ul>
+                      </div>
+    
+    
+                      <div class="footer-col">
+                        <h1>Order Now!</h1>
+                        <ul>
+                          <li><a href="#">Watch</a></li>
+                          <li><a href="#">bag</a></li>
+                          <li><a href="#">Shoes</a></li>
+                          <li><a href="#">Dress</a></li>
+                        </ul>
+                      </div>
+    
+                      <div class="footer-col">
+                        <h1>Follow Us</h1>
+                        <div class="social-links">
+                          <a href="#"><i class="fab fa-facebook-f"></i></a>
+                          <a href="#"><i class="fab fa-twitter"></i></a>
+                          <a href="#"><i class="fab fa-instagram"></i></a>
+                          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </ul>
+                      </div>
+                      
+    
+                    </div>
+                    <hr>
+                    <div class="rights text-center" style="font-size: 18px;">
+                      All  Copy Rights &copy; are Reserved By <span class="myName">Sohair Mahmoud</span> 
+                    </div>
+    
+                  </footer>
+    
+                  <!--footer end-->
 
 
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/products.js"></script>
 </body>
 </html>
