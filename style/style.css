@@ -648,7 +648,7 @@ flex-wrap: wrap;
         margin-top: 257px;
     }
     #form{
-        height: 90vh;
+        height: 99vh;
         width: 77vw;
     }
     .btn1{
@@ -684,7 +684,7 @@ flex-wrap: wrap;
         margin-top: 257px;
     }
     #form{
-        height: 90vh;
+        height: 99vh;
         width: 77vw;
     }
     .btn1{
@@ -749,6 +749,7 @@ flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
     width: 100%;
+  
 }
 .testimonial-heading{
     letter-spacing: 1px;
@@ -773,10 +774,28 @@ flex-wrap: wrap;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-.reviews{
-    margin-left: -70px;
+/* .reviews{
+    margin-left: -150px;
 
+} */
+
+
+@media (min-width:368px){
+    .reviews{
+        margin-left: -150px;
+    }
 }
+@media (min-width:768px){
+    .reviews{
+        margin-left: -90px;
+    }
+}
+@media (min-width:992px){
+    .reviews{
+        margin-left: -70px;
+    }
+}
+
 .testimonial-box-container{
     display: flex;
     justify-content: center;
@@ -869,5 +888,106 @@ background:#d74249;
     transition: all 0.5s ease-in-out;
     outline: none;
 }
+
+@media (min-width:368px){
+    .cart{
+        margin-left: 0px;
+    }
+    .btn-menu1{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      width: 800px;
+     
+    }
+    .store-img{
+        margin-left: 250px;
+    }
+    #Email,.Subscribe{
+        width: 200px;
+    }
+    .Subscribe{
+        margin-top: -55%;
+    }
+    .carousel .txt
+    {
+        margin-left: -300px;
+    }
+}
+@media (min-width:768px){
+    .cart{
+        margin-left: 120px;
+    }
+    .btn-menu1{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 800px;
+       
+      }
+      .store-img{
+          margin-left: 10px;
+      }
+      #Email,.Subscribe{
+        width: 200px;
+    }
+    .Subscribe{
+        margin-top: -25%;
+    }
+    .carousel .txt,
+    .carousel .more
+    {
+        margin-left: -300px;
+    }
+}
+@media (min-width:992px){
+    .cart{
+        margin-left: 90px;
+    }
+    .btn-menu1{
+        display: block;
+        width: 1000px;
+        
+    }
+    .store-img{
+        margin-left: 0px;
+    }
+    #Email,.Subscribe{
+        width: 200px;
+    }
+    .Subscribe{
+        margin-top: -13%;
+    }
+    .carousel .txt
+    {
+        margin-left: -650px;
+    }
+    .carousel .more{
+        margin-left: -650px;
+    }
+}
+#Email::placeholder{
+    color:#d74249;
+    text-align: center;
+}
+.co{
+    color:#d74249;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
