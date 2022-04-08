@@ -973,8 +973,16 @@ background:#d74249;
     font-weight: 700;
     font-size: 30px;
 }
-
-
+.cart button{
+    border: none;
+    padding: 5px;
+    border-radius: 20%;
+    background:#d74249;
+    transition: all 0.2s ease-in-out;
+}
+.cart button:hover{
+    background: #fff;
+}
 
 
 

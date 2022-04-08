@@ -1,0 +1,54 @@
+[
+    {
+        "name":" Pizza Item 1",
+        "category":"Chicken Pizza",
+        "price":"120.00",
+        "imgSrc":"assests/img/cart/240_F_88292934_DNiiEHi1FsxSWO3RaHOfT72MiPatjShm.jpg"
+    },
+    {
+        "name":" Pizza Item 2",
+        "category":"Chicken Pizza",
+        "price":"10.00",
+        "imgSrc":"assests/img/cart/240_F_230667176_73vKW0ShSkII5wItyCFt883lyS8c1BEy.jpg"
+    },
+    {
+        "name":" Pizza Item 3",
+        "category":"Chicken Pizza",
+        "price":"100.00",
+        "imgSrc":"assests/img/cart/240_F_250728620_ZjpneuafXsHBOWw1qKbt5HbUDJ0F8oaY.jpg"
+    },
+    {
+        "name":" Pizza Item 4",
+        "category":"Chicken Pizza",
+        "price":"140.00",
+        "imgSrc":"assests/img/cart/240_F_264847354_bawUZKHbzxwv5tmBzeTG5pUmYZckJXtl.jpg"
+    },
+    {
+        "name":" Pizza Item 5",
+        "category":"Chicken Pizza",
+        "price":"160.00",
+        "imgSrc":"assests/img/cart/240_F_271072270_5HKdRo26aCWvQ64FflFh1BCu6s9QF86B.jpg"
+    },
+    {
+        "name":" Pizza Item 6",
+        "category":"Chicken Pizza",
+        "price":"130.00",
+        "imgSrc":"assests/img/cart/240_F_90244895_kqsTDipwR0g45MfFhWfig0XpURJtS0B3.jpg"
+    },
+    {
+        "name":" Pizza Item 7",
+        "category":"Chicken Pizza",
+        "price":"190.00",
+        "imgSrc":"assests/img/cart/240_F_301819444_VWRpS5E6JBYqByrH9HoAlu59w8wdwOqI.jpg"
+    },
+    {
+        "name":" Pizza Item 8",
+        "category":"Chicken Pizza",
+        "price":"70.00",
+        "imgSrc":"assests/img/cart/240_F_116077036_M6BRiWAC8yXCR9fXnplE3Qt658r9YzIk.jpg"
+    }
+    
+
+
+
+]

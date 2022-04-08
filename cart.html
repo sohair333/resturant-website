@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="icon" href="assests/img/icons/italian-pepperoni-pizza-with-sausages-cheese-ketchup-basil-board-black-background_217290-174.webp">
+    <link rel="stylesheet" href="style/font-awesome.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/cartstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link href="style/lightbox.css" rel="stylesheet">
+    
+    
+    <title>PIZZA HAT</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+</head>
+<body>
+     <!--nav start-->
+
+<nav class="navbar  fixed-top navbar-expand-lg navbar-light ">
+    <div class="container">
+      <a class="navbar-brand " href="#"><span>C</span><img src="assests/img/icons/oo.png"><span>Kery</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end me-1" id="navbarNav">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Home</a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="#">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Catalog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Book table</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+            <li class="nav-item me-5">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <div class="logIn px-2 py-2 "><a href="#"><i class="fa fa-sign-in" ></i>&nbsp;LogIn</a></div>
+          <div class="logOut px-2 py-2"><a href="#"><i class="fa fa-sign-out" ></i>&nbsp;Signup</a></div>
+          <div class="cart  ">
+            <button type="button" id="cart-btn">
+              <i class="fas fa-shopping-cart "></i>
+              <span id="cart-count-info"></span>
+
+            </button>
+
+
+            <div class="cart-container ">
+                <div class="cart-list">
+                    <!--single item start-->
+                        <!-- <div class="cart-item">
+                            <img src="assests/img/cart/240_F_230233694_epuP13PRUaxHcbeEW8a14nRWPdrIqXBL.jpg" alt="">
+                            <div class="cart-item-info">
+                                <h5 class="cart-item-name">Chicken Pizza</h5>
+                                <span class="cart-item-category"></span>
+                                <span class="cart-item-price">$120.00
+
+                                </span>
+                            </div>
+                            <button type="button" class="cart-item-del-btn">
+                                <i class="fas fa-times"></i>
+                            </button>
+
+                        </div> -->
+
+                     <!--single item end-->
+                </div>
+
+                <div class="cart-total">
+                    <h3>Total:$</h3>
+                    <span id="cart-total-value"></span>
+                </div>
+
+            </div>
+
+
+
+
+
+          </div>
+          <!-- <form class="d-flex ">
+            <input class=" px-3 search" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn0 " type="submit">Search</button>
+         </form> -->
+         
+        </ul>
+      </div>
+     
+    </div>
+    
+  </nav>
+
+
+<!--nav end-->
+
+    
+        <!-- cart items start --> 
+
+            <div class="container products">
+                <div class="row">
+                    <h2>our Products</h2>
+                    <div class="product-list">
+     
+
+                </div>
+                </div>
+            </div>
+
+
+        <!-- cart items end --> 
+
+
+
+       <!--footer start-->
+
+       <footer class="container-fluid">
+        <div class="row foot fadeInLeftBig">
+          <div class="footer-col">
+            <h1>CoKery</h1>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Services</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Affilliate programs</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h1>Get Help</h1>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Order Status</a></li>
+              <li><a href="#">Payment Options</a></li>
+            </ul>
+          </div>
+
+
+          <div class="footer-col">
+            <h1>Order Now!</h1>
+            <ul>
+              <li><a href="#">Watch</a></li>
+              <li><a href="#">bag</a></li>
+              <li><a href="#">Shoes</a></li>
+              <li><a href="#">Dress</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h1>Follow Us</h1>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </ul>
+          </div>
+          
+
+        </div>
+        <hr>
+        <div class="rights text-center" style="font-size: 18px;">
+          All  Copy Rights &copy; are Reserved By <span class="myName">Sohair Mahmoud</span> 
+        </div>
+
+      </footer>
+
+      <!--footer end-->
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/cart.js"></script>
+</body>
+</html>
