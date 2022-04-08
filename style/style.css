@@ -102,24 +102,24 @@ background: linear-gradient(90deg, #f7a9a8 0%, #f7a9a8 38%,#a1c3d4 38%, #a1c3d4 
     transition: all 0.3s ease-in-out;
 
 }
-.counter .package::before,
+/* .counter .package::before,
 .counter .package::after{
 content: '';
 position: absolute;
 border-radius: 50%;
 border:1px solid green;
 animation:spin 15s linear infinite;
-}
-.counter .package::before{
+} */
+/* .counter .package::before{
     height: 170px;
     width: 120px;
     margin-top: -20px;
     margin-left: -42px;
     /* left: -15px;
     top: -15px; */
-    border-left: 1x solid green;
-}
-.counter .package::after{
+    /* border-left: 1x solid green;
+}  */
+/* .counter .package::after{
 
     height: 150px;
     width: 100px;
@@ -128,8 +128,8 @@ animation:spin 15s linear infinite;
     /* left:20%; */
     /* left: 30px;
     top: 30px; */
-    border-right: 1x solid green;
-}
+    /* border-right: 1x solid green;
+} */ 
 @keyframes spin{
     0%{
         transform: rotate(0deg);
