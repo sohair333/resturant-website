@@ -973,7 +973,7 @@ background:#d74249;
 }
 #Email::placeholder{
     color:#d74249;
-    text-align: center;
+    margin-left: 10px;
 }
 .co{
     color:#d74249;
@@ -995,12 +995,35 @@ background:#d74249;
 width: 30px;
 cursor: pointer;
 }
+.scroll img{
+    position: fixed;
+    bottom: 20px;
+    right: -4%;
+    cursor: pointer;
+    padding: 5px;
+    transition: all .3s ;
+}
+.show-scroll{
+    border-radius: 0;
+}
+@media (min-width:368px){
+    .scroll img{
+        right: -1%;
+    }
 
+}
 
+@media (min-width:768px){
+    .scroll img{
+        right: -2%;
+    }
+}
 
-
-
-
+@media (min-width:992px){
+    .scroll img{
+        right: -4%;
+    }
+}
 
 
 

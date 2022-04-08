@@ -172,3 +172,18 @@ iconDarkTheme.addEventListener('click',()=>{
         iconDarkTheme.src="assests/img/icons/moon.png";
     }
 });
+///////////scroll top button
+let scrollBtn =document.querySelector('.scroller');
+window.onscroll =function(){
+   
+    this.scrollY >= 1000 ? scrollBtn.classList.add("show-scroll") : scrollBtn.classList.remove("show-scroll");
+    
+};
+
+scrollBtn.addEventListener('click',()=>{
+    window.scrollTo({
+        top:0,
+        behavior:"smooth",
+    });
+});
+
