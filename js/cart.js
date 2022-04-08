@@ -159,3 +159,16 @@ productCount:products.length
 
 
 };
+
+///////////////////////dark theme
+const iconDarkTheme =document.getElementById('icon');
+iconDarkTheme.addEventListener('click',()=>{
+
+    document.body.classList.toggle('dark-theme');
+    if(document.body.classList.contains('dark-theme')){
+        iconDarkTheme.src ="assests/img/icons/sun.png";
+    }
+    else{
+        iconDarkTheme.src="assests/img/icons/moon.png";
+    }
+});
