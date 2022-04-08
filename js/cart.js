@@ -119,7 +119,7 @@ function saveProductToLocalStorage(product){
     updateCartInfo();
 }
 function getProductFromLocalStorage(){
-    return localStorage.getItem('products') ?JSON.parse(localStorage.getItem('products')) : [];
+    return localStorage.getItem('products') ? JSON.parse(localStorage.getItem('products')) : [];
 }
 function loadCart(){
     let products =getProductFromLocalStorage();
